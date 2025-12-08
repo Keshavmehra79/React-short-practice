@@ -1,0 +1,22 @@
+{
+    "mydata":[
+        {
+            "rollno":"1234",
+            "name":"keshav",
+            "age":23,
+            "city":"Bhopal"
+        },
+        {
+                "rollno":"3565",
+            "name":"Arjun",
+            "age":21,
+            "city":"indore"
+        },
+        {
+            "rollno":"789",
+            "name":"Aman",
+            "age":24,
+            "city":"Rewa"
+        }
+    ]
+}

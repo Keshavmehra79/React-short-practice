@@ -1,16 +1,25 @@
+import {Routes,Route} from 'react-router-dom'
+import Home from "./Home";
+import Profile from './Profile';
+import Welcome from './Welcome';
+import Course from './Course';
+import Crud from './Crud';
 
-import React from "react"
-import { useState } from "react";
-import Form from "./form";
-import Rendering from "./rendring";
 const App=()=>{
 
   return(
     <>
-    <Rendering/>    
-    
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path="/profile/:username" element={<Profile/>}/>
+      <Route path="/welcome/:name" element={<Welcome/>}/>
+      <Route path="/course/:courseid/:coursename" element={<Course/>}/>
+  </Routes>
+  <Crud/>
     </>
   )
 }
 
 export default App
+
+
