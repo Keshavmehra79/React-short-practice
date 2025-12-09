@@ -25,12 +25,12 @@ const handlesubmit=(e)=>{
         <>
         <h1>This is home page.......</h1>
         <button onClick={usenav}>Go to profile</button><br></br><br></br>
-
+{/* 
         <form action={handlesubmit}>
            Enter Username: <input type="text" onChange={(e)=>(setname(e.target.value))}/><br></br>
            <input type="submit" />
         </form>
-        <button onClick={sendpara}>Go to Course</button>
+        <button onClick={sendpara}>Go to Course</button> */}
         </>
     )
 }

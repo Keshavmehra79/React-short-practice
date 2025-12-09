@@ -1,0 +1,25 @@
+{
+  "studata": [
+    {
+      "id": "e7d9",
+      "rollno": "3213213",
+      "name": "keshav",
+      "age": "21",
+      "city": "badi"
+    },
+    {
+      "id": "f647",
+      "rollno": "1234",
+      "name": "Sachin Gadwal",
+      "age": "21",
+      "city": "Satna"
+    },
+    {
+      "id": "7836",
+      "rollno": "7890",
+      "name": "Ansu",
+      "age": "34",
+      "city": "Rewa"
+    }
+  ]
+}
