@@ -31,7 +31,11 @@ const handlesubmit=(e)=>{
            <input type="submit" />
         </form>
         <button onClick={sendpara}>Go to Course</button> */}
+
+        <button onClick={()=>nav("/fullpage")}>Go to fullpage</button>
         </>
+
+        
     )
 }
 
