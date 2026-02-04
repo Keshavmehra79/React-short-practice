@@ -1,10 +1,11 @@
 import { createRoot } from 'react-dom/client'
-import App from './contextapi/App.jsx'
+import App from './App.jsx'
+import { Provider } from 'react-redux'
+import Cartstore from './Pages/Cartstore.jsx'
 import { BrowserRouter } from 'react-router-dom'
-import Routing from './Routing.jsx'
-
 createRoot(document.getElementById('root')).render(
  <BrowserRouter>
- <App/>
+ <Provider store={Cartstore}>
+ <App/></Provider>
  </BrowserRouter>
 )

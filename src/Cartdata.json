@@ -1,0 +1,31 @@
+{
+    "ecomdata":[
+        {
+            "name":"shirt",
+            "description":"Classic White Men Shirt",
+            "qunty":1,
+            "price":200,
+            "image":"https://m.media-amazon.com/images/I/61SB14qT0EL._SY879_.jpg"
+        },
+        {
+            "name":"Tshirt",
+            "description":"T-Shirt with Chest Pocket",
+            "qunty":1,
+            "price":352,
+            "image":"https://m.media-amazon.com/images/I/61Qrj5J9F-L._SY741_.jpg"
+        },
+        {
+            "name":"Kurta",
+            "description":"Traditional and Elegant Look ",
+            "qunty":1,
+            "price":419,
+            "image":"https://m.media-amazon.com/images/I/71iEvYVXxZL._SY741_.jpg"
+        },
+        {
+            "name":"shirt",
+            "description":"Lightweight Outwear Jacket (J-04-06)",
+            "qunty":1,
+            "price":"https://m.media-amazon.com/images/I/619xMvtqClL._SY741_.jpg"
+        }
+    ]
+}

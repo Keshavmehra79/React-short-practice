@@ -1,34 +1,23 @@
-import {Routes,Route} from 'react-router-dom'
-import Home from "./Home";
-import Profile from './Profile';
-import Welcome from './Welcome';
-import Course from './Course';
-import Crud from './Crud';
-import Formcrud from './Formcrud';
-import Crud2 from './Crud2';
-import Search from './search';
-import Layout from './.pages/Layout';
-import Fullpage from './fullpage';
-const App=()=>{
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './Pages/Layout'
+import Home from './Pages/Home'
+import Cart from './Pages/Cart'
+import Cartdata from './Pages/Cartdata'
 
-  return(
+function App() {
+  return (
     <>
-     <Routes>
-      <Route path='/' element={<Layout/>}>
-      <Route path='/home' element={<Home/>}/>
-      <Route path="/profile/:username" element={<Profile/>}/>
-      <Route path="/welcome/:name" element={<Welcome/>}/>
-      <Route path="/course/:courseid/:coursename" element={<Course/>}/>
-      </Route>
-  </Routes> 
-
-  <Routes>
-    <Route path='fullpage' element={<Fullpage/>}/>
-  </Routes>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path='/home' element={<Home/>} />
+          <Route path='/cart' element={<Cart />} />
+          <Route path='/cartdata' element={<Cartdata />} />
+        </Route>
+      </Routes>
     </>
   )
 }
 
 export default App
-
-

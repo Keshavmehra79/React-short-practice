@@ -1,13 +1,6 @@
 {
   "mydata": [
     {
-      "rollno": "000000",
-      "name": "Rohan Gadwal",
-      "age": "51",
-      "city": "Beena",
-      "id": "28b9"
-    },
-    {
       "id": "c9ff",
       "rollno": "1234",
       "name": "keshav",
